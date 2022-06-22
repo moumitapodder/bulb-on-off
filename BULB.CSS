@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color:brown;
+    font: weight -2px;
+    font-style: oblique;
+    text-align: center;
+}
+.btn_container{
+    margin-top: 50px;
+    border-radius: 12px;
+}
+.bulb_btn{
+    font-family:'ui-serif'
+    background-color:black;
+    width: 150px;
+    height: 50px;
+    border: circle;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+.bulb_btn:hover{
+    cursor: pointer;
+    background-color:red;
+    border-radius: 102px;
+}
